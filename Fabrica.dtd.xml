@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE fabrica [
+ <!ELEMENT fabrica (coche)>
+  <!ELEMENT coche (piezas)>
+  <!ATTLIST coche num_bastidor CDATA #REQUIRED>
+   <!ELEMENT piezas (parte_coche)>
+    <!ELEMENT pieza (nombre_parte,peso,stock,num_bastidor)>
+     <!ATTLIST pieza procedencia CDATA #REQUIRED>
+     <!ATTLIST pieza num_ref CDATA #REQUIRED>
+     <!ATTLIST pieza parte_coche CDATA #REQUIRED>
+     <!ELEMENT nombre_parte #PCDATA>
+     <!ELEMENT peso #PCDATA>
+     <!ELEMENT stock #PCDATA>
+     <!ELEMENT num_bastidor #PCDATA>
+     <!ELEMENT mecanico (nombre_mecanico,apellidos_mecanico,direcion,provincia)>
+     <!ATTLIST mecanico dni CDATA #REQUIRED> 
+     <!ATTLIST mecanico fecha_incorporacion CDATA #REQUIRED>
+      <!ELEMENT nombre #PCDATA>
+      <!ELEMENT apellidos #PCDATA>
+    <!ELEMENT direcion #PCDATA>
+      <!ELEMENT provincia #PCDATA>
+      <!ELEMENT localidad #PCDATA>
+    <!ELEMENT pintor (apellidos_pintor,nombre_pintor,direcion,provincia,fecha_examen)>
+    <!ATTLIST pintor dni CDATA #REQUIRED>
+    <!ATTLIST pintor fecha_incorporacion>
+     <!ELEMENT nombre #PCDATA>
+     <!ELEMENT apellidos #PCDATA>
+    <!ELEMENT direcion #PCDATA>
+     <!ATTLIST direcion codigo_postal CDATA #REQUIRED>
+     <!ELEMENT provincia #PCDATA>
+     <!ELEMENT localidad #PCDATA>
+     <!ELEMENT fecha_examen #PCDATA>
+]>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+ <fabrica>
+  <coche num_bastidor="">
+   <piezas>
+    <pieza procedencia="" num_ref="" parte_coche="">
+     <nombre_parte></nombre_parte>
+     <peso></peso>
+     <stock></stock>
+    </pieza>
+   </piezas>
+    <mecanico dni="" fecha_incorporacion="">
+  	 <apellidos_mecanico></apellidos>
+  	 <nombre_mecanico></nombre>
+  	<direcion codigo_postal="">
+  	 <provincia></provincia>
+     <localidad></localidad>
+    </direcion>
+  	</mecanico>
+     <pintor dni="" fecha_incorporacion="">
+      <apellidos_pintor></apellidos_pintor>
+  	  <nombre_pintor></nombre_pintor>
+  	 <direcion codigo_postal="">
+  	  <provincia></provincia>
+      <localidad></localidad>
+     </direcion>
+  	  <fecha_examen></fecha_examen>
+  	 </pintor>
+    </coche>
+   </fabrica>

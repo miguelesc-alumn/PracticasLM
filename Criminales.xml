@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+ <criminales>
+  <criminal dni="" estado="">
+   <datospersonales sexo="">
+     <apellidos_nombre></apellidos_nombre>
+     <fechanacimiento></fechanacimiento>
+     <altura></altura>
+     <descripcion></descripcion>
+     <historialmedico></historialmedico>
+    </datospersonales>
+    <direcion_completa>
+     <direcion></direcion>
+     <localidad></localidad>
+     <codigo_postal></codigo_postal>
+     <provincia></provincia>
+    </direcion_completa>
+    <crimenes pena="">
+     <delitos></delitos>
+     <juicio></juicio>
+     <estado_pena></estado_pena>
+    </crimenes>
+  </criminal>

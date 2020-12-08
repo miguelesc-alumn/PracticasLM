@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+ <!DOCTYPE criminales [
+  	<!ELEMENT criminales (criminal)>
+    	<!ELEMENT criminal (datospersonales)>
+  		<!ATTLIST criminal dni CDATA #REQUIRED>
+  		<!ATTLIST criminal estado CDATA #REQUIRED>
+    		<!ELEMENT datospersonales (apellidos_nombre,fechanacimiento,altura,descripcion,historialmedico?,direcion_completa)>
+    		<!ATTLIST datospersonales sexo CDATA #REQUIRED>
+    			<!ELEMENT apellidos_nombre #PCDATA>
+    			<!ELEMENT fechanacimiento #PCDATA>
+    			<!ELEMENT altura #PCDATA>
+    			<!ELEMENT descripcion #PCDATA>
+    			<!ELEMENT direcion #PCDATA>
+    			<!ELEMENT historialmedico #IMPLIED>
+    		<!ELEMENT direcion_completa (direcion,localidad,codigo_postal,provincia)>
+    		    <!ELEMENT direcion #PCDATA>
+    			<!ELEMENT localidad #PCDATA>
+    			<!ELEMENT codigo_postal #PCDATA>
+    			<!ELEMENT provincia #PCDATA>
+    		<!ELEMENT crimenes (delitos,juicio)>
+    			<!ATTLIST crimenes pena CDATA #REQUIRED>
+    			<!ELEMENT delitos #PCDATA>
+   				<!ELEMENT juicio #PCDATA>
+  ]>
